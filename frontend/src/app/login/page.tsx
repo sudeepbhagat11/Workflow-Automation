@@ -18,7 +18,7 @@ const Login = () => {
     setError(""); // Reset error state before a new request
 
     try {
-      const res = await axios.post(`${BACKEND_URL}/api/v1/user/signin`, {
+      const res = await axios.post("https://workflow-automation-1-u359.onrender.com/api/v1/user/signup/api/v1/user/signin", {
         username: email,
         password: password,
       });
