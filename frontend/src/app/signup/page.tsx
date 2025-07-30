@@ -171,7 +171,7 @@ const SignUp = () => {
     }
 
     try {
-      await axios.post(`${BACKEND_URL}/api/v1/user/signup`, {
+      await axios.post("https://workflow-automation-1-u359.onrender.com/api/v1/user/signup", {
         username: email,
         password: password,
         name: username,
